@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="listitem_divide">#ffd4d3d3</color>
+    <color name="corlor111">#456644</color>
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="ivory">#FFFFF0</color> <!-- 象牙色 -->
+    <color name="lightyellow">#FFFFE0</color> <!-- 亮黄色 -->
+    <color name="yellow">#FFFF00</color> <!-- 黄色 -->
+    <color name="snow">#FFFAFA</color> <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color> <!-- 花白色 -->
+    <color name="lemonchiffon">#FFFACD</color> <!-- 柠檬绸色 -->
+    <color name="cornsilk">#FFF8DC</color> <!-- 米绸色 -->
+    <color name="seashell">#FFF5EE</color> <!-- 海贝色 -->
+    <color name="lavenderblush">#FFF0F5</color> <!-- 淡紫红 -->
+    <color name="papayawhip">#FFEFD5</color> <!-- 番木色 -->
+    <color name="blanchedalmond">#FFEBCD</color> <!-- 白杏色 -->
+    <color name="mistyrose">#FFE4E1</color> <!-- 浅玫瑰色 -->
+    <color name="bisque">#FFE4C4</color> <!-- 桔黄色 -->
+    <color name="moccasin">#FFE4B5</color> <!-- 鹿皮色 -->
+    <color name="navajowhite">#FFDEAD</color> <!-- 纳瓦白 -->
+    <color name="peachpuff">#FFDAB9</color> <!-- 桃色 -->
+    <color name="gold">#FFD700</color> <!-- 金色 -->
+    <color name="pink">#FFC0CB</color> <!-- 粉红色 -->
+    <color name="lightpink">#FFB6C1</color> <!-- 亮粉红色 -->
+    <color name="orange">#FFA500</color> <!-- 橙色 -->
+    <color name="lightsalmon">#FFA07A</color> <!-- 亮肉色 -->
+    <color name="darkorange">#FF8C00</color> <!-- 暗桔黄色 -->
+    <color name="coral">#FF7F50</color> <!-- 珊瑚色 -->
+    <color name="hotpink">#FF69B4</color> <!-- 热粉红色 -->
+    <color name="tomato">#FF6347</color> <!-- 西红柿色 -->
+    <color name="orangered">#FF4500</color> <!-- 红橙色 -->
+    <color name="deeppink">#FF1493</color> <!-- 深粉红色 -->
+    <color name="fuchsia">#FF00FF</color> <!-- 紫红色 -->
+    <color name="magenta">#FF00FF</color> <!-- 红紫色 -->
+    <color name="oldlace">#FDF5E6</color> <!-- 老花色 -->
+    <color name="lightgoldenrodyellow">#FAFAD2</color> <!-- 亮金黄色 -->
+    <color name="linen">#FAF0E6</color> <!-- 亚麻色 -->
+    <color name="antiquewhite">#FAEBD7</color> <!-- 古董白 -->
+    <color name="salmon">#FA8072</color> <!-- 鲜肉色 -->
+    <color name="ghostwhite">#F8F8FF</color> <!-- 幽灵白 -->
+    <color name="mintcream">#F5FFFA</color> <!-- 薄荷色 -->
+    <color name="whitesmoke">#F5F5F5</color> <!-- 烟白色 -->
+    <color name="beige">#F5F5DC</color> <!-- 米色 -->
+    <color name="wheat">#F5DEB3</color> <!-- 浅黄色 -->
+    <color name="sandybrown">#F4A460</color> <!-- 沙褐色 -->
+    <color name="azure">#F0FFFF</color> <!-- 天蓝色 -->
+    <color name="honeydew">#F0FFF0</color> <!-- 蜜色 -->
+    <color name="aliceblue">#F0F8FF</color> <!-- 艾利斯兰 -->
+    <color name="khaki">#F0E68C</color> <!-- 黄褐色 -->
+    <color name="lightcoral">#F08080</color> <!-- 亮珊瑚色 -->
+    <color name="palegoldenrod">#EEE8AA</color> <!-- 苍麒麟色 -->
+    <color name="violet">#EE82EE</color> <!-- 紫罗兰色 -->
+    <color name="darksalmon">#E9967A</color> <!-- 暗肉色 -->
+    <color name="lavender">#E6E6FA</color> <!-- 淡紫色 -->
+    <color name="lightcyan">#E0FFFF</color> <!-- 亮青色 -->
+    <color name="burlywood">#DEB887</color> <!-- 实木色 -->
+    <color name="plum">#DDA0DD</color> <!-- 洋李色 -->
+    <color name="gainsboro">#DCDCDC</color> <!-- 淡灰色 -->
+    <color name="crimson">#dc143c</color> <!-- 暗深红色 -->
+    <color name="palevioletred">#DB7093</color> <!-- 苍紫罗兰色 -->
+    <color name="goldenrod">#DAA520</color> <!-- 金麒麟色 -->
+    <color name="orchid">#DA70D6</color> <!-- 淡紫色 -->
+    <color name="thistle">#D8BFD8</color> <!-- 蓟色 -->
+    <color name="lightgray">#D3D3D3</color> <!-- 亮灰色 -->
+    <color name="lightgrey">#D3D3D3</color> <!-- 亮灰色 -->
+    <color name="tan">#D2B48C</color> <!-- 茶色 -->
+    <color name="chocolate">#d2691e</color> <!-- 巧可力色 -->
+    <color name="peru">#CD853F</color> <!-- 秘鲁色 -->
+    <color name="indianred">#CD5C5C</color> <!-- 印第安红 -->
+    <color name="mediumvioletred">#C71585</color> <!-- 中紫罗兰色 -->
+    <color name="silver">#C0C0C0</color> <!-- 银色 -->
+    <color name="darkkhaki">#BDB76B</color> <!-- 暗黄褐色 -->
+    <color name="rosybrown">#BC8F8F</color> <!-- 褐玫瑰红 -->
+    <color name="mediumorchid">#BA55D3</color> <!-- 中粉紫色 -->
+    <color name="darkgoldenrod">#B8860B</color> <!-- 暗金黄色 -->
+    <color name="firebrick">#B22222</color> <!-- 火砖色 -->
+    <color name="powderblue">#B0E0E6</color> <!-- 粉蓝色 -->
+    <color name="lightsteelblue">#B0C4DE</color> <!-- 亮钢兰色 -->
+    <color name="paleturquoise">#AFEEEE</color> <!-- 苍宝石绿 -->
+    <color name="greenyellow">#ADFF2F</color> <!-- 黄绿色 -->
+    <color name="lightblue">#ADD8E6</color> <!-- 亮蓝色 -->
+    <color name="darkgray">#A9A9A9</color> <!-- 暗灰色 -->
+    <color name="darkgrey">#A9A9A9</color> <!-- 暗灰色 -->
+    <color name="brown">#a52a2a</color> <!-- 褐色 -->
+    <color name="sienna">#A0522D</color> <!-- 赭色 -->
+    <color name="darkorchid">#9932CC</color> <!-- 暗紫色 -->
+    <color name="palegreen">#98FB98</color> <!-- 苍绿色 -->
+    <color name="darkviolet">#9400D3</color> <!-- 暗紫罗兰色 -->
+    <color name="mediumpurple">#9370DB</color> <!-- 中紫色 -->
+    <color name="lightgreen">#90EE90</color> <!-- 亮绿色 -->
+    <color name="darkseagreen">#8FBC8F</color> <!-- 暗海兰色 -->
+    <color name="saddlebrown">#8B4513</color> <!-- 重褐色 -->
+    <color name="darkmagenta">#8B008B</color> <!-- 暗洋红 -->
+    <color name="darkred">#8B0000</color> <!-- 暗红色 -->
+    <color name="blueviolet">#8A2BE2</color> <!-- 紫罗兰蓝色 -->
+    <color name="lightskyblue">#87CEFA</color> <!-- 亮天蓝色 -->
+    <color name="skyblue">#87CEEB</color> <!-- 天蓝色 -->
+    <color name="gray">#808080</color> <!-- 灰色 -->
+    <color name="grey">#808080</color> <!-- 灰色 -->
+    <color name="olive">#808000</color> <!-- 橄榄色 -->
+    <color name="purple">#800080</color> <!-- 紫色 -->
+    <color name="maroon">#800000</color> <!-- 粟色 -->
+    <color name="aquamarine">#7FFFD4</color> <!-- 碧绿色 -->
+    <color name="chartreuse">#7FFF00</color> <!-- 黄绿色 -->
+    <color name="lawngreen">#7CFC00</color> <!-- 草绿色 -->
+    <color name="mediumslateblue">#7B68EE</color> <!-- 中暗蓝色 -->
+    <color name="lightslategray">#778899</color> <!-- 亮蓝灰 -->
+    <color name="lightslategrey">#778899</color> <!-- 亮蓝灰 -->
+    <color name="slategray">#708090</color> <!-- 灰石色 -->
+    <color name="slategrey">#708090</color> <!-- 灰石色 -->
+    <color name="olivedrab">#6B8E23</color> <!-- 深绿褐色 -->
+    <color name="slateblue">#6A5ACD</color> <!-- 石蓝色 -->
+    <color name="dimgray">#696969</color> <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color> <!-- 暗灰色 -->
+    <color name="mediumaquamarine">#66CDAA</color> <!-- 中绿色 -->
+    <color name="cornflowerblue">#6495ED</color> <!-- 菊兰色 -->
+    <color name="cadetblue">#5F9EA0</color> <!-- 军兰色 -->
+    <color name="darkolivegreen">#556B2F</color> <!-- 暗橄榄绿 -->
+    <color name="indigo">#4B0082</color> <!-- 靛青色 -->
+    <color name="mediumturquoise">#48D1CC</color> <!-- 中绿宝石 -->
+    <color name="darkslateblue">#483D8B</color> <!-- 暗灰蓝色 -->
+    <color name="steelblue">#4682B4</color> <!-- 钢兰色 -->
+    <color name="royalblue">#4169E1</color> <!-- 皇家蓝 -->
+    <color name="turquoise">#40E0D0</color> <!-- 青绿色 -->
+    <color name="mediumseagreen">#3CB371</color> <!-- 中海蓝 -->
+    <color name="limegreen">#32CD32</color> <!-- 橙绿色 -->
+    <color name="darkslategray">#2F4F4F</color> <!-- 暗瓦灰色 -->
+    <color name="darkslategrey">#2F4F4F</color> <!-- 暗瓦灰色 -->
+    <color name="seagreen">#2E8B57</color> <!-- 海绿色 -->
+    <color name="forestgreen">#228B22</color> <!-- 森林绿 -->
+    <color name="lightseagreen">#20B2AA</color> <!-- 亮海蓝色 -->
+    <color name="dodgerblue">#1E90FF</color> <!-- 闪兰色 -->
+    <color name="midnightblue">#191970</color> <!-- 中灰兰色 -->
+    <color name="aqua">#00FFFF</color> <!-- 浅绿色 -->
+    <color name="cyan">#00FFFF</color> <!-- 青色 -->
+    <color name="springgreen">#00FF7F</color> <!-- 春绿色 -->
+    <color name="lime">#00FF00</color> <!-- 酸橙色 -->
+    <color name="mediumspringgreen">#00FA9A</color> <!-- 中春绿色 -->
+    <color name="darkturquoise">#00CED1</color> <!-- 暗宝石绿 -->
+    <color name="deepskyblue">#00BFFF</color> <!-- 深天蓝色 -->
+    <color name="darkcyan">#008B8B</color> <!-- 暗青色 -->
+    <color name="teal">#008080</color> <!-- 水鸭色 -->
+    <color name="green">#008000</color> <!-- 绿色 -->
+    <color name="darkgreen">#006400</color> <!-- 暗绿色 -->
+    <color name="blue">#0000FF</color> <!-- 蓝色 -->
+    <color name="mediumblue">#0000CD</color> <!-- 中兰色 -->
+    <color name="darkblue">#00008B</color> <!-- 暗蓝色 -->
+    <color name="navy">#000080</color> <!-- 海军色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+
+    <color name="myblue">#0080ff</color> <!-- 蓝色 -->
+
+
+
+
+
+
+
+    <!-- baidumusic -->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="default_line_indicator_selected_color">#ff33b5e5</color>
+    <color name="default_line_indicator_unselected_color">#ffbbbbbb</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
+    <color name="browser_white">#ffffffff</color>
+    <color name="browser_black">#ff000000</color>
+    <color name="browser_geolocation_permissions_prompt_background">#ffdddddd</color>
+    <color name="browser_ssl_text_label">#ffffffff</color>
+    <color name="browser_ad_browser_link_bg_color">#fff5f5f5</color>
+    <color name="browser_ad_browser_link_text_highlight_color">#ff1e90ff</color>
+    <color name="browser_ad_browser_link_text_color">#ff000000</color>
+    <color name="browser_ad_tip_text">#ff333333</color>
+    <color name="browser_ad_tip_text_ok">#ff248bf2</color>
+    <color name="browser_ad_tip_text_cancel">#ffb3b2b2</color>
+    <color name="browser_ad_tip_text_ok_press">#ff0066cc</color>
+    <color name="browser_ad_tip_text_cancel_press">#ff666666</color>
+    <color name="app_blue">#ff19a0e4</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="listview_selector_background">@color/color_transparent</color>
+    <color name="color_tab_text">#ffffffff</color>
+    <color name="color_tab_text_2">#4c000000</color>
+    <color name="color_tab_bg">#ff279ce7</color>
+    <color name="color_tab_press">#ff47caff</color>
+    <color name="color_new_edit_tab">#ff2f2f3b</color>
+    <color name="color_new_divider_nor">#ffeeeeee</color>
+    <color name="color_minibar_pressed">#ffe1e4e6</color>
+    <color name="color_bg_widget">#4c8f9ca3</color>
+    <color name="color_listview_divider">#ffe1e4e6</color>
+    <color name="color_bg_null_page">#ffffffff</color>
+    <color name="color_minibar_btn_press">#ff279ce7</color>
+    <color name="color_titlebar_text">#ffffffff</color>
+    <color name="color_titlebar_text_black">#ff32393d</color>
+    <color name="color_window_bg">#ffffffff</color>
+    <color name="color_tab_press_bg">#ffcccccc</color>
+    <color name="color_gridview_item_pressed">#ff279ce7</color>
+    <color name="color_gridview_item_text1">#ff333333</color>
+    <color name="color_background_color">#ffffffff</color>
+    <color name="color_dialog_title">#ff2f2f3a</color>
+    <color name="color_dialog_list_press">#47caff</color>
+    <color name="color_dialog_list_line">#eeeeeee6</color>
+    <color name="color_text_line_blue">#ff19a0e4</color>
+    <color name="color_dividing_line_blue">#7f19a0e4</color>
+    <color name="color_dividing_line_grey">#ffe1e4e6</color>
+    <color name="music_background">#fff2f4f5</color>
+
+    <color name="translucent_dark">#4b000000</color>
+    <color name="color_text_grey">#ff999999</color>
+    <color name="section_header_bg">#ffffffff</color>
+    <color name="title_text_color">#ffffffff</color>
+    <color name="btn_text_color">#ffffffff</color>
+    <color name="tab_pressed_color">#ff3289cb</color>
+    <color name="tab_normal_color">#ff333333</color>
+    <color name="error_text_color">#ffe00000</color>
+    <color name="edit_text_color">#ff333333</color>
+    <color name="edit_hint_color">#ffdddddd</color>
+    <color name="edit_neting_color">#ff888888</color>
+    <color name="show_text_color">#ff333333</color>
+    <color name="title_background">#ff2f2f3a</color>
+    <color name="select_type_window_background">#ff2f2f3a</color>
+    <color name="select_type_window_background_selected">#ff279ce7</color>
+    <color name="select_type_window_seperator">#ff373741</color>
+    <color name="dialog_dark">#ffb1b1b1</color>
+    <color name="translucent_white">#33ffffff</color>
+    <color name="footer_grey">#ffeeeeee</color>
+    <color name="divider_line">#ffeeeeee</color>
+    <color name="equalizer_text_color">#ffcccccc</color>
+    <color name="bg_song_recognition_entrance">#eeeeee</color>
+    <color name="bg_online">#fff2f4f5</color>
+    <color name="seq_no_color_1">#ffe76767</color>
+    <color name="seq_no_color_2_3">#ffe7ac67</color>
+    <color name="seq_no_color_other">#ffc0c8cc</color>
+    <color name="bg_notification_bg">#ff31393d</color>
+    <color name="bg_notification_bt_press">#ff19a0e4</color>
+    <color name="voice_poplistview_driver">#ff4a4a4a</color>
+    <color name="voice_list_orange">#fff7551d</color>
+    <color name="voice_list_dark">#ffadadad</color>
+    <color name="text_color_light_grey">#ff667780</color>
+    <color name="text_color_dialog_confirm_cancel">#ff4b5c66</color>
+    <color name="sapi_background_color">#fff7f7f7</color>
+    <color name="sapi_title_text_color">#ffffffff</color>
+    <color name="sapi_btn_text_color">#ffffffff</color>
+    <color name="sapi_tab_pressed_color">#ff3289cb</color>
+    <color name="sapi_tab_normal_color">#ff333333</color>
+    <color name="sapi_error_text_color">#ffe00000</color>
+    <color name="sapi_tip_text_color">#ff333333</color>
+    <color name="sapi_edit_text_color">#ff333333</color>
+    <color name="sapi_edit_hint_color">#ffdddddd</color>
+    <color name="sapi_edit_neting_color">#ff888888</color>
+    <color name="sapi_show_text_color">#ff333333</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#b0000000</color>
+    <color name="sapi_qr_tips_background">#30ffffff</color>
+    <color name="ui_home_page_indicator_text_color">#ffffffff</color>
+    <color name="ui_home_page_indicator_background">#ff2f2f3a</color>
+    <color name="ui_home_page_indicator_divider">#ff373741</color>
+    <color name="ui_home_page_indicator_underline_selected">#ff279ce7</color>
+    <color name="ui_home_page_indicator_underline">#ff212129</color>
+    <color name="ui_cloud_page_indicator_background">#ff2f2f3a</color>
+    <color name="ui_cloud_page_indicator_divider">#ff373741</color>
+    <color name="ui_home_center_item_info_text">#ff333333</color>
+    <color name="ui_home_center_item_title_text">#ff333333</color>
+    <color name="ui_home_login_info_text">#ff333333</color>
+    <color name="ui_home_login_name_text">#ff333333</color>
+    <color name="ui_home_locallist_dialog_content_background">#ffdddddd</color>
+    <color name="ui_home_locallist_dialog_content_text">#ff333333</color>
+    <color name="ui_list_item_title_color_normal">#ff333333</color>
+    <color name="ui_mini_bar_title">#ff31393d</color>
+    <color name="ui_mini_bar_info">#ff667780</color>
+    <color name="ui_cloud_empty_text">#ff878787</color>
+
+    <!--     colors.xml -->
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="background_light">#ffffff</color>
+    <color name="bright_foreground_dark">@android:color/background_light</color>
+    <color name="bright_foreground_light">@android:color/background_dark</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="hint_foreground_dark">#808080</color>
+    <color name="dim_foreground_light">#323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#bebebe</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="highlighted_text_dark">#9983CC39</color>
+    <color name="highlighted_text_light">#9983CC39</color>
+    <color name="link_text_dark">#5c5cff</color>
+    <color name="link_text_light">#0000ee</color>
+    <color name="suggestion_highlight_text">#177bbd</color>
+    <!-- For settings framework -->
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+
+    <!-- For security permissions -->
+    <color name="perms_dangerous_grp_color">#33b5e5</color>
+    <color name="perms_dangerous_perm_color">#33b5e5</color>
+    <color name="shadow">#cc222222</color>
+    <color name="perms_costs_money">#ffffbb33</color>
+
+    <!-- For search-related UIs -->
+    <color name="search_url_text_normal">#7fa87f</color>
+    <color name="search_url_text_selected">@android:color/black</color>
+    <color name="search_url_text_pressed">@android:color/black</color>
+
+    <!-- SlidingTab -->
+    <color name="sliding_tab_text_color_active">@android:color/black</color>
+    <color name="sliding_tab_text_color_shadow">@android:color/black</color>
+
+    <!-- keyguard tab -->
+    <color name="keyguard_text_color_normal">#ffffff</color>
+    <color name="keyguard_text_color_unlock">#a7d84c</color>
+    <color name="keyguard_text_color_soundoff">#ffffff</color>
+    <color name="keyguard_text_color_soundon">#e69310</color>
+    <color name="keyguard_text_color_decline">#fe0a5a</color>
+
+    <!-- keyguard clock -->
+    <color name="lockscreen_clock_background">#ffffffff</color>
+    <color name="lockscreen_clock_foreground">#ffffffff</color>
+    <color name="lockscreen_clock_am_pm">#ffffffff</color>
+    <color name="lockscreen_owner_info">#ff9a9a9a</color>
+
+    <!-- keyguard overscroll widget pager -->
+    <color name="kg_multi_user_text_active">#ffffffff</color>
+    <color name="kg_multi_user_text_inactive">#ff808080</color>
+    <color name="kg_widget_pager_gradient">#ffffffff</color>
+
+    <!-- FaceLock -->
+    <color name="facelock_spotlight_mask">#CC000000</color>
+
+    <!-- For holo theme -->
+    <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
+    <drawable name="screen_background_holo_dark">#ff000000</drawable>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_disabled_holo_light">#b2b2b2</color>
+    <color name="dim_foreground_holo_dark">#bebebe</color>
+    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="hint_foreground_holo_dark">#808080</color>
+    <color name="dim_foreground_holo_light">#323232</color>
+    <color name="dim_foreground_disabled_holo_light">#80323232</color>
+    <color name="dim_foreground_inverse_holo_light">#bebebe</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+    <color name="hint_foreground_holo_light">#808080</color>
+    <color name="highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="highlighted_text_holo_light">#6633b5e5</color>
+    <color name="link_text_holo_dark">#5c5cff</color>
+    <color name="link_text_holo_light">#0000ee</color>
+
+    <!-- Group buttons -->
+    <eat-comment />
+    <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
+    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+
+    <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
+    <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
+
+    <!-- Highlight colors for the legacy themes -->
+    <eat-comment />
+    <color name="legacy_pressed_highlight">#fffeaa0c</color>
+    <color name="legacy_selected_highlight">#fff17a0a</color>
+    <color name="legacy_long_pressed_highlight">#ffffffff</color>
+
+    <!-- General purpose colors for Holo-themed elements -->
+    <eat-comment />
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+
+    <!-- Keyguard colors -->
+    <color name="keyguard_avatar_frame_color">#ffffffff</color>
+    <color name="keyguard_avatar_frame_shadow_color">#80000000</color>
+    <color name="keyguard_avatar_nick_color">#ffffffff</color>
+    <color name="keyguard_avatar_frame_pressed_color">#ff35b5e5</color>
+
+    <color name="accessibility_focus_highlight">#80ffff00</color>
+
+
+    <!-- QQNewsColor -->
+    <color name="none_color">#00ffffff</color>
+    <color name="view_bg_color">#fff6f6f6</color>
+    <color name="tip_text_color">#ff4086b2</color>
+    <color name="timeline_home_bg_color">#fff6f6f6</color>
+    <color name="comment_num_color">#ff949494</color>
+    <color name="comment_tips_color">#ff949494</color>
+    <color name="comment_pic_num_color">#ffd1d1d1</color>
+    <color name="comment_pic_tips_color">#ffd1d1d1</color>
+    <color name="menu_normal_color">#ffdfdfdf</color>
+    <color name="nettips_bg_color">#fffff4b9</color>
+    <color name="nettips_text_color">#ffc88b55</color>
+    <color name="readed_news_title_color">#ff999999</color>
+    <color name="text_mode_head_news_bg_color">#ff28333e</color>
+    <color name="text_mode_head_news_title_color">#ffffffff</color>
+    <color name="viewpage_bg_color">#ffdbdbdb</color>
+    <color name="list_title_color">#ff212121</color>
+    <color name="list_abstract_color">#ff999999</color>
+    <color name="list_image_count_color">#ff818181</color>
+    <color name="list_comment_color">#ff898989</color>
+    <color name="pull_to_refresh_bg_color">#fff6f6f6</color>
+    <color name="pull_to_refresh_tips_color">#ff101010</color>
+    <color name="pull_to_refresh_time_color">#ff706f6f</color>
+    <color name="list_click_color">#ff98a5ac</color>
+    <color name="list_head_bg_color">#ffffffff</color>
+    <color name="channel_bar_padding_color">#ffededed</color>
+    <color name="list_setting_title_color">#ff5c5c5c</color>
+    <color name="loading_bar_text_color">#ff737373</color>
+    <color name="comment_list_title_color">#ff000000</color>
+    <color name="comment_list_channel_color">#ffa7a7a7</color>
+    <color name="publish_comment_text_color">#ff000000</color>
+    <color name="comment_user_name_color">#ff2e65a8</color>
+    <color name="comment_up_num_color">#ff898989</color>
+    <color name="comment_group_section_color">#ff025975</color>
+    <color name="writing_comment_change_btn_color">#ff444444</color>
+    <color name="writing_comment_hit_color">#ff999999</color>
+    <color name="comment_list_background_color">#fff6f6f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="checked">#ffe9f0fa</color>
+    <color name="dragContainer_color">#fff6f6f6</color>
+    <color name="setting_scrollView_color">#fff6f6f6</color>
+    <color name="custom_menu_button_color">#ff000000</color>
+    <color name="custom_menu_button_yaowen_color">#ff939393</color>
+    <color name="menu_setting_complete_color">#ffffffff</color>
+    <color name="menu_setting_title_color">#ffffffff</color>
+    <color name="menu_setting_nav_tips_color">#ffaaaaaa</color>
+    <color name="menu_setting_channel_on">#ffffffff</color>
+    <color name="menu_setting_channel_off">#ff656565</color>
+    <color name="menuListLayout_color">#fff6f6f6</color>
+    <color name="scrollView_color">#fff6f6f6</color>
+    <color name="custom_menu_list_item_color">#ff333333</color>
+    <color name="expandview_color">#fff6f6f6</color>
+    <color name="ontouch_color">#eeeeeeee</color>
+    <color name="menusetting_gradient_start_color">#ffffffff</color>
+    <color name="menusetting_gradient_end_color">#ffffffff</color>
+    <color name="menusetting_stroke_color">#ffc7c7c7</color>
+    <color name="menusetting_start_drag_color">#00ffffff</color>
+    <color name="menusetting_resumeorigbutton_color">#ff000000</color>
+    <color name="menu_icon_true_color">#ff414141</color>
+    <color name="menu_icon_false_color">#ff778797</color>
+    <color name="menu_icon_color">#ff414141</color>
+    <color name="special_report_title_btn_back_color">#ffffffff</color>
+    <color name="news_detail_loading_color">#fff6f6f6</color>
+    <color name="load_news_failed_color">#fff6f6f6</color>
+    <color name="view_intro_color">#ff999999</color>
+    <color name="special_report_color">#ff025975</color>
+    <color name="specaillistheadimage_color">#ffdedede</color>
+    <color name="specailListHeadText_color">#ff222222</color>
+    <color name="text_foreground_color">#ff2385c6</color>
+    <color name="special_news_list_item_above_color">#7fffffff</color>
+    <color name="special_news_list_item_after_color">#7fd9d9d9</color>
+    <color name="activity_imgtxt_title_str_color">#ffffffff</color>
+    <color name="img_txt_live_loading_color">#fff6f6f6</color>
+    <color name="img_txt_live_failed_color">#fff6f6f6</color>
+    <color name="img_txt_live_failed_textview_color">#ff98a5ac</color>
+    <color name="imgtxtlive_title_color">#ff212121</color>
+    <color name="imgtxtlivesummary_content_color">#ff555555</color>
+    <color name="live_float_time_color">#ff444444</color>
+    <color name="imgtxtliveactivity_layout_color">#ffebebeb</color>
+    <color name="img_txt_live_pager_color">#ffdbdbdb</color>
+    <color name="imgtxtlive_list_item_livetime_color">#ff999999</color>
+    <color name="imgtxtlive_list_item_livecontent_color">#ff212121</color>
+    <color name="page_setting_bg_color">#fff6f6f6</color>
+    <color name="mask_page_color">#00000000</color>
+    <color name="mask_webview_color">#00000000</color>
+    <color name="sina_outh_loading_color">#fff6f6f6</color>
+    <color name="about_title_text_color">#ffffffff</color>
+    <color name="about_license_text_color">#ff2e65a8</color>
+    <color name="red">#ffff0000</color>
+    <color name="media_txt_color">#ff444444</color>
+    <color name="media_txt_color_gray">#ff999999</color>
+    <color name="root_bg_color">#fff6f6f6</color>
+    <color name="list_empty_color">#ff999999</color>
+
+</resources>

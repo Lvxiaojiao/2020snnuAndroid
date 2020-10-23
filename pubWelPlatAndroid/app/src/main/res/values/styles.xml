@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.MyNoTitle.CustomerBackground" parent="@style/Theme.MyNoTitle">
+        <item name="android:windowBackground">@mipmap/guidance_bg</item>
+    </style>
+    <style name="Theme.MyNoTitle" parent="@style/Theme.my">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.my" parent="@android:style/Theme.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">45.0dip</item>
+        <item name="android:drawingCacheQuality">auto</item>
+        <item name="android:listDivider">@color/listitem_divide</item>
+    </style>
+    <style name="ReportDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

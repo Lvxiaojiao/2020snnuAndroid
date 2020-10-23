@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:text="姓名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crealname"
+        android:textColor="@color/black"
+        android:textSize="8sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/cname"
+        android:layout_weight="1"
+        android:textColor="@color/brown"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="8sp"
+        android:text="用户名" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/userGroupName"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="8sp"
+        android:text="身份" />
+
+    <Button
+        android:text="修改"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editBtn"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:minWidth="40dip"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="8sp"
+        android:focusable="false"
+        android:minHeight="22dp" />
+
+</LinearLayout>

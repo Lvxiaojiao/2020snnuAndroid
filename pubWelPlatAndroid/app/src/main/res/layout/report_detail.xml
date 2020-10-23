@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/store_bgimg"
+    android:padding="20.0dip">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="31dp"
+        android:background="@color/activity_imgtxt_title_str_color">
+
+        <TextView
+            android:id="@+id/tetle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="报名信息提交单"
+            android:textColor="#262626"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tetle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="需完整填写"
+            android:textColor="#ea302e" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_below="@+id/textdz"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:text="真实姓名："
+                        android:textSize="18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:text="身份证号码："
+                        android:textSize="18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:text="联系电话："
+                        android:textSize="18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:text="地址："
+                        android:textSize="18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/etxt_background"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/txt_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/etxt_background"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/txt_TEL"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/etxt_background"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/txt_add"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/etxt_background"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@+id/lineardb"
+            android:background="#e6e6e6" />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lineardb"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/textwzdl"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="#262626"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textckxq"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#6495ED"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+

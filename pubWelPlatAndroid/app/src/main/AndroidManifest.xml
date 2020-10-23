@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hodo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.CALL_PHONE" />
+   <uses-permission android:name="android.permission.SEND_SMS" />
+   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+   <!--
+            <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+            <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+           <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+   -->
+
+
+    <!-- <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" /> -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_GPS" /> -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/mylogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".ui.SplashActivity_"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyNoTitle.CustomerBackground">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".MainActivity_"-->
+            <!--android:configChanges="keyboardHidden|orientation">-->
+        <!--</activity>-->
+        <activity
+            android:name=".ui.TabActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.ActDetailActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.ActPubActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.ActPicLoadActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.ActMyReqListActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.ActListActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.PartinListActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+
+        <activity
+            android:name=".ui.UsrActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.UsrEditActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+            android:name=".ui.PicLoadActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <!--<activity-->
+            <!--android:name=".ui.TopicActivity_"-->
+            <!--android:configChanges="keyboardHidden|orientation">-->
+        <!--</activity>-->
+        <activity
+            android:name=".ui.ForgetPwdActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name=".ui.RegActivity_"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+    </application>
+
+</manifest>

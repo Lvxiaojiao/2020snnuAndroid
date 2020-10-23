@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="8"
+            android:id="@+id/searchBox"
+            android:layout_weight="0.7"
+            android:hint="请输入关键字！" />
+
+        <Button
+            android:text="搜索"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBtn"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:text="申请活动"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pubBtn"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <!--存放图片的ViewPager-->
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loopviewpager">
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#33000000">
+            <!-- 标题-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="left"
+                android:id="@+id/loop_dec"/>
+            <!-- 小圆点-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_dots_loop"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:padding="10dp">
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="50dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.33"
+         >
+            <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/nowReqNum" />
+
+            <TextView
+                android:text="今日需求数"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView18" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#888888"
+            android:layout_gravity="center_horizontal"
+            >
+        </View>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.33"
+            >
+            <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/monthNum" />
+
+            <TextView
+                android:text="本月成交"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView21" />
+        </LinearLayout>
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#888888"
+            android:layout_gravity="center_horizontal"
+            >
+        </View>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.33"
+            >
+            <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/totalNum" />
+
+            <TextView
+                android:text="总需求数"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView23" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/app_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:gravity="center"
+        />
+</LinearLayout>

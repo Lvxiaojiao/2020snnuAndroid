@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="姓名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crealname"
+                android:textColor="@color/black"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="类型"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cls"
+                android:background="@drawable/small_textview_style"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/priceId"
+        android:layout_weight="1"
+        android:textColor="@color/brown"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="服务费" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/crtDateString"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="发布时间" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/statusId"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="状态" />
+</LinearLayout>
